@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Hello || Project</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="t-set">
+      <h2>Shopping List</h2>
+      <p>Let's manage your shopping list to get more benefits what you wanna buy</p>
+    </div>
+    <div class="f-set">
+      <form action="">
+        <div class="f-product">
+          <h4>Name Product</h4>
+          <input type="text" placeholder="enter your product..." autocomplete="off" id="nm-product">
+        </div>
+        <div class="f-price">
+          <h4>Price</h4>
+          <input type="number" placeholder="price your product..." id="price-1">
+        </div>
+        <div class="f-store">
+          <h4>Store Name</h4>
+          <input type="text" placeholder="enter shop..." autocomplete="off" id="store-1">
+        </div>
+      </form>
+      <button class="btn-add" id="add-li">Add list</button>
+    </div>
+  </div>
+
+  <div class="output-1">
+    <h2>Your List : </h2>
+    <ul class="output-set" id="li-des">
+      <!-- <li>
+        <h3>This is my product</h3>
+        <p>2000</p>
+        <p>adnadna</p>
+          <button class="btn-li">X</button>
+      </li>
+      <li>
+          <h3>This is my product</h3>
+          <p>2000</p>
+          <p>adnadna</p>
+          <button class="btn-li">X</button>
+        </li> -->
+
+    </ul>
+  </div>
+  
+  <script src="./script/app.js"></script>
+</body>
+
+</html>

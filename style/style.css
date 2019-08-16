@@ -1,0 +1,147 @@
+/* Default Set */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(83, 105, 118);
+  background: linear-gradient(90deg, rgba(83, 105, 118, 1) 0%, rgba(41, 46, 73, 1) 100%);
+  margin: 50px 300px 50px 300px;
+}
+
+/* End of default set */
+
+/* set class */
+.container {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  padding: 20px 50px 20px 50px;
+  border-radius: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.t-set {
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+
+.f-set {
+  padding-left: 10px;
+}
+
+.f-product {
+  margin: 10px;
+}
+
+.f-product input {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.f-product h4 {
+  margin-bottom: 5px;
+}
+
+.f-price {
+  margin: 10px;
+}
+
+.f-price input {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.f-price h4 {
+  margin-bottom: 5px;
+}
+
+.f-store {
+  margin: 10px;
+}
+
+.f-store input {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.f-store h4 {
+  margin-bottom: 5px;
+}
+
+.btn-add {
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* end set class */
+
+/* output set */
+.output-1 {
+  margin: 20px 0px;
+  line-height: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  color: #ffffff
+}
+
+.output-1 h2 {
+  margin-left: 20px;
+  margin-top : 20px;
+}
+
+.output-set {
+  margin: 20px 0px;
+  line-height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff
+}
+
+.output-set li {
+  list-style: none;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-li {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+
+
+/* end of output set */
